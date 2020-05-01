@@ -1,0 +1,15 @@
+DAILY CODING PROBLEM - #3
+-------------------------
+This problem was asked by Serialize.
+
+Given the root of a Binary tree which contains N nodes. Implement following functions :
+    -> Serialize(root)   : which serializes the tree into a string s.
+    -> Deserialize(s) : which deserializes the string back into the tree.
+
+Sample Input                    Sample Output
+5                               Serialization   : ABD..E..C..
+A B C D E                       Deserialization : D B E A C
+
+Sample Input                    Sample Output
+7                               Serialization   : ABD..E..CF..G..
+A B C D E F G                   Deserialization : D B E A F C G

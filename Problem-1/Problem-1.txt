@@ -1,0 +1,19 @@
+DAILY CODING PROBLEM - #1
+-------------------------
+This problem was asked by Google.
+
+Given a list of  n numbers and a number k, return whether any two numbers from the list add up to k.
+
+For example, given [10, 15, 3, 7] and k of 17, return true since 10 + 7 is 17.
+
+Expected Time Complexity : O(n) 
+
+Sample Input #1:           Sample Output #1:
+4                        
+10 15 3 7                   true 
+17
+
+Sample Input #2:           Sample Output #2:
+5           
+13 12 6 10 8               false
+24  

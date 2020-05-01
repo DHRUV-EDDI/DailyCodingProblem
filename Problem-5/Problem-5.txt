@@ -1,0 +1,8 @@
+DAILY CODING PROBLEM - #5
+-------------------------
+This problem was asked by Jane Street.
+
+Implement a Datastructure with following functions:
+    -> Construct(a,b) : which constructs a pair(a,b) and returns that pair.
+    -> First(pair)    : which returns the first element of that pair.
+    -> Last(pair)     : which returns the last element of that pair.
