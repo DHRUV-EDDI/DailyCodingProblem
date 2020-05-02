@@ -1,0 +1,22 @@
+DAILY CODING PROBLEM - #10
+-------------------------
+This problem was asked by twitter.
+
+Implement an autocomplete system. That is, Given an string s and set 
+of all possible query strings, return all strings in that have s as a prefix.
+
+For Example, Given the query string de and the set of strings
+[ dog, deer, deal], return [deer, deal].
+
+Hint: Try  preproceesing the dictionary into a more efficient datastructure to speed 
+up queries.
+
+Sample Input:                                       Sample Output:
+5                                                   apple
+apple apple apple apple apple
+a
+
+Sample Input:                                       Sample Output:
+5                                                   pin pine pineapple pink
+pine pineapple pin pink picnic
+pin
