@@ -1,0 +1,26 @@
+DAILY CODING PROBLEM - #30
+--------------------------
+This problem was asked by Jane Street.
+
+Suppose you are given a table of currency exchange rates, represented as a 2D array. Determine whether there is a 
+possible arbitrage: that is, whether there is some sequence of trades you can make, starting with some amount A of 
+any currency, so that you can end up with some amount greater than A of that currency.
+
+There are no transaction costs and you can trade fractional quantities
+
+Example : https://github.com/iamvictorli/Daily-Coding-Problem/blob/master/assets/Arbitrage.png
+
+Hint - 1:
+    log(a*b) = log(a) + log(b);
+Hint - 2:
+    Bellman-ford Algorithm
+
+Sample Input:                                                                           Sample Output:
+7                                                                                       true
+1 0.8123 0.6404 78.125 0.9784 0.9924 0.9465
+1.2275 1 0.7860 96.55 1.2010 1.2182 1.1616
+1.5617 1.2724 1 122.83 1.5280 1.5498 1.4778
+0.0128 0.0104 0.0081 1 1.2442 0.0126 0.0120
+1.0219 0.8327  0.6546 80.39 1 1.0142  0.9672
+1.0076 0.8206 0.6453 79.26 0.9859 1 0.9535
+1.0567 0.8609 0.6767 83.12  1.0339 1.0487 1
