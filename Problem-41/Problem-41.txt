@@ -1,0 +1,33 @@
+DAILY CODING PROBLEM - #41
+--------------------------
+This problem was asked by Amazon.
+
+Implement a stack that has the following methods:
+
+    => push(val), which pushes an element onto the stack
+    => pop(), which pops off and returns the topmost element of the stack. 
+       If there are no elements in the stack, then it should throw an error or return null.
+    => max(), which returns the maximum value in the stack currently. If there are no elements
+       in the stack, then it should throw an error or return null.
+
+Restriction: Each method should run in constant time.
+
+Sample Input:                                                               Sample Output:
+5 6                                                                         2
+push 1                                                                      1
+push 2
+max
+pop
+max
+push 5
+
+Sample Input:                                                               Sample Output:
+3 8                                                                         Empty Stack
+max                                                                         5
+push 5                                                                      5
+push 4                                                                      9
+max
+pop
+max
+push 9
+max
