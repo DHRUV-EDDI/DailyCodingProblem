@@ -1,0 +1,16 @@
+DAILY CODING PROBLEM - #67
+-------------------------
+This problem was asked by Google.
+
+Given the head of a singly linked list, reverse it in-place.
+
+
+Sample Input:                                                               Sample Output:
+5                                                                           5 4 3 2 1
+1 2 3 4 5
+Sample Input:                                                               Sample Output:
+3                                                                           3 2 1
+1 2 3
+Sample Input:                                                               Sample Output:
+1                                                                           1
+1
