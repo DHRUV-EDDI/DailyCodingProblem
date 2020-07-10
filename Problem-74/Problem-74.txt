@@ -1,0 +1,23 @@
+DAILY CODING PROBLEM - #74
+---------------------------
+This problem was asked by Google.
+
+Given the root of a binary tree, return a deepest node. For example, in the following tree, return d.
+
+    a
+   / \
+  b   c
+ /
+d
+
+Sample Input:                                                               Sample Output:
+6                                                                           h
+w z e f g h
+
+Sample Input:                                                               Sample Output:
+6                                                                           a
+w x z e a f
+
+Sample Input:                                                               Sample Output:
+4                                                                           c
+e d c f
