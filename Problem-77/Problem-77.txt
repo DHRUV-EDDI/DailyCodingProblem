@@ -1,0 +1,32 @@
+DAILY CODING PROBLEM - #77
+--------------------------
+This problem was asked by Google.
+
+Invert a binary tree.
+
+For example, given the following tree:
+
+    a
+   / \
+  b   c
+ / \  /
+d   e f
+should become:
+
+  a
+ / \
+ c  b
+ \  / \
+  f e  d
+
+Sample Input:                                                               Sample Output:
+6                                                                           12 11 10 7 5 4
+10 12 11 5 4 7
+
+Sample Input:                                                               Sample Output:
+6                                                                           15 14 13 12 11 10
+10 11 12 13 14 15
+
+Sample Input:                                                               Sample Output:
+5                                                                           10 8 7 5 4
+10 8 7 4 5
