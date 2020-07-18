@@ -1,0 +1,15 @@
+DAILY CODING PROBLEM - #82
+----------------------------
+This question was asked by ContextLogic.
+
+Implement division of two positive integers without using the division, multiplication, or modulus operators. 
+Return the quotient as an integer, ignoring the remainder.
+
+Sample Input:                                                               Sample Output:
+10 -3                                                                       -3
+
+Sample Input:                                                               Sample Output:
+256 4                                                                       64
+
+Sample Input:                                                               Sample Output:
+-256 -8                                                                     32
