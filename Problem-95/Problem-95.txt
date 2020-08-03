@@ -1,0 +1,20 @@
+DAILY CODING PROBLEM - #95
+-------------------------
+This problem was asked by Lyft.
+
+Given a list of integers and a number K, return which contiguous elements of the list sum to K.
+
+For example, if the list is [1, 2, 3, 4, 5] and K is 9, then it should return [2, 3, 4], since 2 + 3 + 4 = 9.
+
+
+Sample Input:                                                                       Sample Output:
+6 33                                                                                20 3 10
+1 4 20 3 10 5
+
+Sample Input:                                                                       Sample Output:
+5 -10                                                                               10 2 -2 -20
+10 2 -2 -20 10
+
+Sample Input:                                                                       Sample Output:
+5 9                                                                                 2 3 4
+1 2 3 4 5
