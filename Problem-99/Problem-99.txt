@@ -1,0 +1,24 @@
+DAILY CODING PROBLEM - #99
+-------------------------
+This problem was asked by Microsoft.
+
+Print the nodes in a binary tree level-wise. For example, the following should print 1, 2, 3, 4, 5.
+
+  1
+ / \
+2   3
+   / \
+  4   5
+
+Sample Input:                                                               Sample Output:
+5                                                                           1 
+1 2 3 4 5                                                                   2 3
+                                                                            4 5
+Sample Input:                                                               Sample Output:
+3                                                                           1
+1 2 3                                                                       2 3
+
+Sample Input:                                                               Sample Output:
+7                                                                           1
+1 2 3 4 5 6 7                                                               2 3
+                                                                            4 5 6 7
