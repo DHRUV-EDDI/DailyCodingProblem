@@ -1,0 +1,19 @@
+DAILY CODING PROBLEM - #97
+-------------------------
+This problem was asked by Google.
+
+Determine whether a doubly linked list is a palindrome. What if it’s singly linked?
+
+For example, 1 -> 4 -> 3 -> 4 -> 1 returns True while 1 -> 4 returns False.
+
+Sample Input:                                                               Sample Output:
+5                                                                           True
+1 2 3 2 1
+
+Sample Input:                                                               Sample Output:
+5                                                                           False
+1 2 3 4 5
+
+Sample Input:                                                               Sample Output:
+5                                                                           True
+1 4 3 4 1
