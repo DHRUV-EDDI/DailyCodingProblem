@@ -1,0 +1,19 @@
+DAILY CODING PROBLEM - #103
+---------------------------
+This problem was asked by Google.
+
+Given a word W and a string S, find all starting indices in S which are anagrams of W.
+
+For example, given that W is "ab", and S is "abxaba", return 0, 3, and 4.
+
+Sample Input:                                                               Sample Output:
+ab                                                                          0 3 4
+abxaba
+
+Sample Input:                                                               Sample Output:
+ab                                                                          3 6 7
+cdeabxaba
+
+Sample Input:                                                               Sample Output:
+abcd                                                                        0 5 6 7
+abcdeabdcab
